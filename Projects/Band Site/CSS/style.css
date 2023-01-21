@@ -1,0 +1,83 @@
+html {
+    font-family: 'Libre Bodoni',georgia,sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: rgb(153, 79, 190);
+}
+
+/* Start Navigation Bar */
+
+#NavBar {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 20px 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#NavBar a{
+    display: block;
+    color: darkorchid;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#NavBar a:hover{
+    background-color: #111;
+}
+
+#NavBar a:active { 
+    color: snow;
+}
+
+/* End Navigation Bar */
+
+/* Start Footer Section */
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 50%;
+}
+
+div.links{
+    font-size: 0.9em;
+    position: relative;
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    bottom: 0;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+.links a{
+    padding: 0 0.8em;
+}
+
+.links a:hover{
+    background-color: #111;
+    text-decoration: none;
+}
+
+.copyright{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+/* End Footer Section */
