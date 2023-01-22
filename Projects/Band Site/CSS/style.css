@@ -1,3 +1,5 @@
+/* Universal Styles */
+
 html {
     font-family: 'Libre Bodoni',georgia,sans-serif;
     line-height: 1.5;
@@ -24,7 +26,9 @@ html {
 
 #NavBar a{
     display: block;
-    color: darkorchid;
+    border: 1px solid rgb(127, 23, 179);
+    border-radius: 5px;
+    color: rgb(153, 50, 204);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
