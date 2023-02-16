@@ -1,19 +1,39 @@
 header.main_logo{
     display: flex;
+    position: relative;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-}
-
-header h1{
+    width: 100%;
     text-align: center;
+    overflow: hidden;
 }
-
-header h3{
-    text-align: center;
+.text-in-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding: .125rem 100%;
+    width: 75%;
 }
-
 p{
     text-align: center;
+    padding: 1%;
+    margin: 2%;
+}
+.about-img-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    margin: 2% 2%;
+}
+.about-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.about {
+    font-size: 1.5rem;
+    padding: 0 20px;
 }

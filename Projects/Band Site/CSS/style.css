@@ -1,47 +1,46 @@
 /* Universal Styles */
-
 html {
     font-family: 'Libre Bodoni',georgia,sans-serif;
     line-height: 1.5;
     font-weight: 400;
+    font-size: 16px;
     margin: 0;
     padding: 0;
     background-color: black;
-    color: rgb(153, 79, 190);
+    color: #fff;
 }
-
 /* Start Navigation Bar */
-
 #NavBar {
     list-style-type: none;
     display: flex;
     margin: 0;
-    padding: 20px 0;
+    padding:  .5rem 20px;
     overflow: hidden;
     background-color: black;
     position: fixed;
     top: 0;
     width: 100%;
 }
-
 #NavBar a{
     display: block;
-    border: 1px solid rgb(127, 23, 179);
-    border-radius: 5px;
-    color: rgb(153, 50, 204);
+    /*border: 2px solid rgb(127, 23, 179);
+    border-radius: 5px;*/
+    color: #fff;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+    font-size: .9em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 14px 16px;
+    margin: .05rem;
+    transition: all .3s ease-in-out;
 }
-
 #NavBar a:hover{
-    background-color: #111;
+    color: #9fd7f1;
 }
-
 #NavBar a:active { 
     color: snow;
 }
-
 /* End Navigation Bar */
 
 /* Start Footer Section */
@@ -53,7 +52,6 @@ html {
     height: 100%;
     width: 50%;
 }
-
 div.links{
     font-size: 0.9em;
     position: relative;
@@ -67,16 +65,13 @@ div.links{
     left: 0;
     right: 0;
 }
-
 .links a{
     padding: 0 0.8em;
 }
-
 .links a:hover{
     background-color: #111;
     text-decoration: none;
 }
-
 .copyright{
     display: block;
     margin-block-start: 1em;
